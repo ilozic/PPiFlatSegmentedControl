@@ -1,2 +1,2 @@
 platform :ios, "6.0"
-pod "PPiAwesomeButton", :git=> 'https://github.com/pepibumur/PPiAwesomeButton.git'
+pod 'PPiAwesomeButton', '~> 1.5'

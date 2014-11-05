@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'PPiFlatSegmentedControl'
-  s.version = '1.3.9'
+  s.version = '1.3.9-as24'
   s.platform = :ios, '6.0'
   s.license = 'MIT'
   s.summary = 'Flat UISegmentedControl for flat designs.'
@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
   s.source_files = 'Control/*.{h,m}'
   s.framework = 'QuartzCore'
   s.public_header_files = 'Control/*.h'
-  s.dependency 'PPiAwesomeButton'
+  s.dependency 'PPiAwesomeButton', '1.5.1'
 end
